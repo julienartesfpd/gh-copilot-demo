@@ -120,3 +120,23 @@ The easiest way is to open this solution in a GitHub Codespace, or run it locall
 
 
 test
+
+## Additional Project: ASP.NET Core 9.0 MVC Demo
+
+A new MVC project has been added at `aspnetcore9-mvc` with three views:
+
+- `Index` at `/` (`HomeController.Index`)
+- `Users` at `/Users` (`UsersController.Index`)
+- `Products` at `/Products` (`ProductsController.Index`)
+
+### Project Structure
+
+- `aspnetcore9-mvc/Program.cs` configures MVC routing.
+- `aspnetcore9-mvc/Controllers/` contains `HomeController`, `UsersController`, and `ProductsController`.
+- `aspnetcore9-mvc/Views/Home/Index.cshtml`
+- `aspnetcore9-mvc/Views/Users/Index.cshtml`
+- `aspnetcore9-mvc/Views/Products/Index.cshtml`
+
+### Note on Build/Run
+
+The current environment does not have the `dotnet` CLI installed (`dotnet: command not found`), so build and run steps could not be executed here.
